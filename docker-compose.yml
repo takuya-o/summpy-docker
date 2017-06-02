@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+
+version: '2'
+
+services:
+  summpy:
+    build: .
+    restart: always
+    volumes:
+    - /etc/localtime:/etc/localtime:ro
